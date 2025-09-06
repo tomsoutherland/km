@@ -20,8 +20,8 @@ You will need a custom ISO with zfs support for this install. I have included in
    ```
    sgdisk -n "3:0:-10m" -t "3:bf00" /dev/sda
    ```
-3. Create the ZFS pool
-   a. Get the partition UUID for the ZFS data  
+3. Create the ZFS pool  
+    a. Get the partition UUID for the ZFS data  
       ```
       ls -l /dev/disk/by-partuuid|grep sda3
       lrwxrwxrwx 1 root root 10 Sep  2 10:21 1aea6cc8-8333-4d5c-a9e6-e0a51296391d -> ../../sda3
