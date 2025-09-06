@@ -28,6 +28,7 @@ You will need a custom ISO with zfs support for this install. I have included in
       ```
     b. This install will be using [zfsbootmenu](https://zfsbootmenu.org) which is currently using OpenZFS 2.3
       ```
+      zgenhostid -f 0x00bab10c
       zpool create -f -o ashift=12 \
        -O compression=lz4 \
        -O acltype=posixacl \
