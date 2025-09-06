@@ -1,5 +1,5 @@
 ## Create a custom ISO with ZFS support
-I ran into issues getting a customer ISO built using the instructions on the arch wiki but I found the following procedure to work.
+I ran into issues getting a custom ISO built using the instructions on the arch wiki but I found the following procedure to work.
 
 1. Install archiso  
 ```pacman -S archiso```
