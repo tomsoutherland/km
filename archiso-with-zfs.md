@@ -1,4 +1,4 @@
-## Create a custom ISO with ZFS support
+## Create a custom Arch ISO with ZFS support
 I ran into issues getting a custom ISO built using the instructions on the arch wiki but I found the following procedure to work.
 
 1. Install archiso  
